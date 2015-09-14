@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<style type="text/css">
+			@font-face {
+				font-family: OswaldBold;
+				src: url("fonts/Oswald-Bold.ttf");
+			}
+			@font-face {
+				font-family: OswaldRegular;
+				src: url("fonts/Oswald-Regular.ttf");
+			}
+			@font-face {
+				font-family: OswaldLight;
+				src: url("fonts/Oswald-Light.ttf");
+			}
+			body {
+				background-image: url("img/bg-darkgrey-2.png");
+				background-repeat:no-repeat;
+				background-size:100% 100%;
+				height: 100%;
+			}
+			body:after {
+			  position:absolute;
+			  top:0;
+			  right:10px;
+			  width:153px;
+			  height:41px;
+			  background:url("img/tab.png");
+			  content:'';
+			}
+			#logo-quantum{
+				margin: 0 auto;
+			}
+			.wrapper{
+				text-align: center;
+			}
+			@media(min-height: 780px){
+				.wrapper{
+					position: relative;
+					top: 50%;
+					transform: translateY(-50%);
+				}
+			}
+			@media(max-height: 780px){
+				.wrapper{
+					margin-top: 40px;
+				}
+			}
+			h1{
+				text-transform: uppercase;
+				font-family: OswaldBold;
+				color: #FFF;
+				font-size: 50px;
+				text-shadow: 3px 3px #333;
+			}
+			h2, h3{
+				font-family: OswaldBold;
+				color: #FFF;
+				font-size: 40px;
+				text-shadow: 2px 2px #333;
+			}
+			h3{
+				font-family: OswaldRegular;
+			}
+			a:hover{
+				text-decoration: none;
+			}
+		</style>
+		<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+		<title>Quantum Firefox Club</title>
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+					</div>
+				</div>
+			</div><!-- div container -->
+		</header>
+		<!-- Aqui começa o conteudo -->
+		<div class="wrapper" role="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<h1>Quantum Firefox Club</h1>
+						<img id="logo-quantum" src="img/logo-quantum.png" class="img-responsive">
+						<a href="js101/">
+							<h2>Link Workshop JS 101</h2>
+							<h3>uma introdução ao Javascript</h3>
+						</a>
+					</div>
+				</div>
+			</div><!-- div container -->
+		</div>
+		<footer> <!-- Aqui e a area do footer -->
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
